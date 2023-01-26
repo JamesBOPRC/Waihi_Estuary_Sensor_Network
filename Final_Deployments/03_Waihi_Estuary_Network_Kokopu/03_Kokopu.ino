@@ -33,6 +33,10 @@ THIS CODE IS PROVIDED "AS IS" - NO WARRANTY IS GIVEN.
 #include <EnableInterrupt.h>  // for external and pin change interrupts
 #include <LoggerBase.h>  // The modular sensors library
 
+// Include the main header for ModularSensors
+#include <ModularSensors.h>
+/** End [includes] */
+
 //#include <Adafruit_ADS1015.h>
 //Adafruit_ADS1115 ads;    /* Use this for the Mayfly because of the onboard 16-bit ADS1115  */
 
@@ -495,8 +499,8 @@ void loop() {
 
                 // Sync the clock at midnight
                 dataLogger.watchDogTimer.resetWatchDog();
-                if (Logger::markedEpochTime != 0 &&
-                    Logger::markedEpochTime % 86400 == 0) {
+                if (Logger::markedLocalEpochTime != 0 &&
+                    Logger::markedLocalEpochTime % 86400 == 0) {
                     Serial.println(F("Running a daily clock sync..."));
                     dataLogger.setRTClock(modem.getNISTTime());
                     dataLogger.watchDogTimer.resetWatchDog();

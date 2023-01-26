@@ -33,6 +33,10 @@ THIS CODE IS PROVIDED "AS IS" - NO WARRANTY IS GIVEN.
 #include <EnableInterrupt.h>  // for external and pin change interrupts
 #include <LoggerBase.h>  // The modular sensors library
 
+// Include the main header for ModularSensors
+#include <ModularSensors.h>
+/** End [includes] */
+
 //#include <Adafruit_ADS1015.h>
 //Adafruit_ADS1115 ads;    /* Use this for the Mayfly because of the onboard 16-bit ADS1115  */
 

@@ -14,7 +14,7 @@
             "name": "PIO Debug",
             "executable": "c:/Users/User/Documents/Arduino/Mayfly/deployments/.pio/build/mayfly/firmware.elf",
             "projectEnvName": "mayfly",
-            "toolchainBinDir": "C:/Users/User/.platformio/packages/toolchain-atmelavr/bin",
+            "toolchainBinDir": "",
             "internalConsoleOptions": "openOnSessionStart",
             "preLaunchTask": {
                 "type": "PlatformIO",
@@ -27,7 +27,7 @@
             "name": "PIO Debug (skip Pre-Debug)",
             "executable": "c:/Users/User/Documents/Arduino/Mayfly/deployments/.pio/build/mayfly/firmware.elf",
             "projectEnvName": "mayfly",
-            "toolchainBinDir": "C:/Users/User/.platformio/packages/toolchain-atmelavr/bin",
+            "toolchainBinDir": "",
             "internalConsoleOptions": "openOnSessionStart"
         },
         {
@@ -36,7 +36,7 @@
             "name": "PIO Debug (without uploading)",
             "executable": "c:/Users/User/Documents/Arduino/Mayfly/deployments/.pio/build/mayfly/firmware.elf",
             "projectEnvName": "mayfly",
-            "toolchainBinDir": "C:/Users/User/.platformio/packages/toolchain-atmelavr/bin",
+            "toolchainBinDir": "",
             "internalConsoleOptions": "openOnSessionStart",
             "loadMode": "manual"
         }
